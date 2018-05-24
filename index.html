@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sonastik Translator</title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2><span>Sõnastik</span> Translator</h2>
+    </header>
+    <main>
+        <div class="banner">
+            <a href="#">
+                <img src="img/banner.png" alt="advertising" class="advertising">
+            </a>
+        </div>
+        <div class="switch">
+            <button type="button" class="translator active">Translator</button>
+            <button type="button" class="dictionaty">Dictionaty</button>
+        </div>
+        <div class="translator-buttons">
+            <button class="esto">estinain</button>
+            <div class="double">
+                <button class="rus">russian</button>
+                <button class="eng">english</button>
+            </div>
+            <button class="change"></button>
+            <button class="esto">estinain</button>
+            <div class="double">
+                <button class="rus">russian</button>
+                <button class="eng">english</button>
+            </div>
+            <button class="translate">
+                <img src="img/arrow.png" alt="arrow pic" class="arrow">
+            </button>
+        </div>
+        <div class="translator-text">
+            <div class="area">
+                <button type="button" id="clear"></button>
+                <textarea class="input">Halloo</textarea>
+            </div>
+            <div class="output">
+                <p class="output-text"></p>
+                <button type="button" class="copy">
+                    <img src="img/copy.png" alt="copy button">
+                </button>
+                <button type="button" class="propoce">
+                    <img src="img/pen.png" alt="propose button">
+                    <p>propose a correction</p>
+                </button>
+            </div>
+        </div>
+        <div class="info">
+            <div class="definition">
+                <h3>Definitions of <span class="black">Halloo</span></h3>
+                <div class="examples">
+                    <h3>noun</h3>
+                    <p class="black">an utterance of "Tere"; a greeting</p>
+                    <p>?«she was getting police nods and hellos from people»?</p>
+                </div>
+                <div class="examples">
+                    <h3>noun</h3>
+                    <p class="black">used as a greeting or to begin a telephone conversation</p>
+                    <p>«hello there, Katie!»</p>
+                </div>
+            </div>
+            <div class="variations">
+                <h3><span class="black">Halloo: </span>translation options</h3>
+                <div class="examples">
+                    <p><span class="black">Hallo!</span> Tere!, Halloo!</p>
+                    <p><span class="black">Hallo!</span> Tere!, Halloo!, Ae!</p>
+                    <p><span class="black">Hallo!</span> Halloo!,Tere!</p>
+                    <p><span class="black">Halloa!</span> Tere!, Halloo!</p>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <a href="#">
+                <img src="img/banner.png" alt="advertising" class="advertising">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <aside>
+            <p><span>Sõnastik</span><br>Translator</p>
+            <a href="#">
+                <img src="img/fb.png" alt="facebook link">
+            </a>
+            <a href="#">
+                <img src="img/st.png" alt="another link">
+            </a>
+        </aside>
+        <form action="/" method="post">
+            <div class="inputs">
+                <label>
+                    <p>Name</p>
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    <p>Email</p>
+                    <input type="email" name="email">
+                </label>
+            </div>
+            <div>
+                <p>Your Message</p>
+                <textarea name="message" class="message"></textarea>
+            </div>
+            <button type="submit" class="send">Send</button>
+        </form>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
